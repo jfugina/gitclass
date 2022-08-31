@@ -1,4 +1,5 @@
 /*adding a comment for GIT diff  and more commentary after git add*/
+/* more commentary for GIT */
 Declare @JSON varchar(max)
 SELECT @JSON=BulkColumn
 FROM OPENROWSET (BULK 'C:\Users\jfugina\Documents\StudentResponse.json', SINGLE_CLOB) import
